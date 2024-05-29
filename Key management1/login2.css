@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  body{
+    height: 100vh;
+    background: linear-gradient(
+      to right,
+      #FF7F3E 0%,
+      #FF7F3E 50%,
+      #DDDDDD 50%,
+      #DDDDDD 100%
+    );
+     display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main{
+    width: 350px;
+    height: 500px;
+    background: transparent;
+    margin-right: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px #ECB176;
+  }
+  #chk{
+    display: none;
+  }
+  .admin{
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  label{
+    color: #6F4E37;
+    font-size: 2.3em;
+    justify-content: center;
+    display: flex;
+    margin: 60px;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+  }
+  input{
+    width: 60%;
+    height: 20px;
+    border: none;
+    border-bottom: 2px solid #ffff;
+    background: transparent;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;  
+  }
+  button{
+    font-size: 16px;
+    font-weight: 600;
+    color: #6F4E37;
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    justify-content: center;
+    display: block;
+    margin-top: 20px;
+    background: #ECB176;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: .2s ease-in;
+  }
+  button:hover{
+    cursor: pointer;
+    background-color: #A67B5B;
+  }
+  .admin .register{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .register p {
+    text-decoration: none;
+    color: #6F4E37;
+    font-size: 16px;
+    font-weight: 200;
+}
+.register a {
+    text-decoration: none;
+    color: #6F4E37;
+    font-weight: 600;
+}
+.register a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+  .student{
+    font-size: 12px;
+    text-align: center;
+    height: 460px;
+    background: #DDDDDD;
+    border-radius: 60% / 10%;
+    transform: translateY(-180px);
+    transition: .8s ease-in-out;
+  }
+  .login label{
+    color: #212121;    
+    transform: scale(.6);
+  }
+  #chk:checked ~ .student{
+    transform: translateY(-500px); 
+  }
+  #chk:checked ~ .student label{
+    transform: scale(1);
+  }
+  #chk:checked ~ .admin label{
+    transform: scale(.6);
+  }
+  .student .register{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .register p {
+    text-decoration: none;
+    color: #6F4E37;
+    font-size: 16px;
+    font-weight: 200;
+}
+.register a {
+    text-decoration: none;
+    color: #6F4E37;
+    font-weight: 600;
+}
+.register a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.logo .logo{
+    width: 300px;
+    margin-right: 100px;
+    
+}
