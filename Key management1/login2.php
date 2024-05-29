@@ -18,8 +18,10 @@
             <input type = "text" name="txt" placeholder="Username" required>
             <input type = "password" name="pass" placeholder="Password" required>
 
-        <button>Login</button>
-        <div class="register">
+            <a href="dashboard.html">
+            <button type="button">Login</button>
+            </a>        <div class="register">
+                
             <p> Don't have account? <a href="#"> Register</a></p>
         </div>
     </form>
